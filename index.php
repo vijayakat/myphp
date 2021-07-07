@@ -27,7 +27,7 @@ if( getenv( "VCAP_SERVICES" ) )
     $conn = db2_connect( $conn_string, "", "" );
     if( $conn )
     {
-        echo "<p>Connection succeeded.</p>";
+        echo "<p>Connection successful.</p>";
         db2_close( $conn );
     }
     else
